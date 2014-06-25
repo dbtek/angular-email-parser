@@ -1,0 +1,24 @@
+<h1><code ng:non-bindable="">$parseEmail</code>
+<div><span class="hint">service in module <code ng:non-bindable="">emailParser</code>
+</span>
+</div>
+</h1>
+<div><h2 id="description">Description</h2>
+<div class="description"><div class="emailparser-services-page emailparser-services--parseemail-page"><p>RFC822 mail parser service.</p>
+</div></div>
+<h2 id="usage">Usage</h2>
+<div class="usage"><pre class="prettyprint linenums">$parseEmail(mail, strict, parse);</pre>
+<h4 id="usage_parameters">Parameters</h4><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>mail</td><td><a href="" class="label type-hint type-hint-string">String</a></td><td><div class="emailparser-services-page emailparser-services--parseemail-page"><ul>
+<li>Email source in plain text</li>
+</ul>
+</div></td></tr><tr><td>strict</td><td><a href="" class="label type-hint type-hint-boolean">boolean</a></td><td><div class="emailparser-services-page emailparser-services--parseemail-page"><ul>
+<li><code>true</code> for strict RFC822 compliance (don&#39;t treat <code>\n</code> without <code>\r</code> as line breaks)</li>
+</ul>
+</div></td></tr><tr><td>parse</td><td><a href="" class="label type-hint type-hint-boolean">boolean</a></td><td><div class="emailparser-services-page emailparser-services--parseemail-page"><ul>
+<li><code>false</code> to disable actually parsing headers (just separate the header block and the body)</li>
+</ul>
+</div></td></tr></tbody></table><h4 id="usage_returns">Returns</h4><table class="variables-matrix"><tr><td><a href="" class="label type-hint type-hint-object">object</a></td><td><div class="emailparser-services-page emailparser-services--parseemail-page"><ul>
+<li>Parsed result containing headers and body properties.</li>
+</ul>
+</div></td></tr></table></div>
+</div>
