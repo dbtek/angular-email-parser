@@ -1,4 +1,4 @@
-angular-email-parser
+angular-email-parser [![Build Status](https://travis-ci.org/dbtek/angular-email-parser.svg?branch=master)](https://travis-ci.org/dbtek/angular-email-parser)
 ====================
 
 RFC 822 email parser module for Angular JS. Based on [header-parse.js](https://gist.github.com/whitelynx/2e44e2af82bb9f51230d).
