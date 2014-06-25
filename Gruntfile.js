@@ -55,6 +55,9 @@ module.exports = function (grunt) {
         'src/{,*/}*.js'
       ],
       test: {
+        options: {
+          jshintrc: 'test/.jshintrc'
+        },
         src: ['test/{,*/}*.js']
       }
     },
@@ -86,5 +89,5 @@ module.exports = function (grunt) {
   });
   
   // Default task
-  grunt.registerTask('default', ['jshint', 'concat', 'ngmin', 'uglify', 'ngdocs']);
+  grunt.registerTask('default', ['jshint', 'karma', 'concat', 'ngmin', 'uglify', 'ngdocs']);
 };
