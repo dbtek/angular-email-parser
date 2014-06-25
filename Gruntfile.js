@@ -87,6 +87,8 @@ module.exports = function (grunt) {
       all: ['src/{,*/}*.js']
     }
   });
+
+grunt.registerTask('test', ['karma']);
   
   // Default task
   grunt.registerTask('default', ['jshint', 'karma', 'concat', 'ngmin', 'uglify', 'ngdocs']);
