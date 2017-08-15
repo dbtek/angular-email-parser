@@ -14,7 +14,7 @@ Include js file and add dependency in your app.
 ```
 Use provider: `$parseEmail`.
 
-###Usage
+### Usage
 ```js
 $parseEmail(mail, strict, parse);
 ```
