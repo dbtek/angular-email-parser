@@ -3,7 +3,7 @@ angular-email-parser [![Build Status](https://travis-ci.org/dbtek/angular-email-
 
 RFC 822 email parser module for Angular JS. Based on [header-parse.js](https://gist.github.com/whitelynx/2e44e2af82bb9f51230d).
 
-###Install
+### Install
 Install via bower:  
 ```bash
  $ bower install angular-email-parser
@@ -37,11 +37,11 @@ $parseEmail(mail, strict, parse);
  }
 ```
 
-###Author
+### Author
 İsmail Demirbilek ([@dbtek](http://twitter.com/dbtek))
 
-###License
+### License
 [MIT](http://opensource.org/licenses/MIT)
 
-###Credits
+### Credits
 David Bronke - [header-parse.js](https://gist.github.com/whitelynx/2e44e2af82bb9f51230d)
